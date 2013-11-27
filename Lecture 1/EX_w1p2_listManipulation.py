@@ -113,7 +113,7 @@ print LB
 print "To add something to a list, we can use the + symbol"
 
 objectList2 = objectList1 + ["42 is better than 34"]
-objectList2.append(objectList2)
+objectList2.append(objectList1)
 
 
 print objectList2[5]

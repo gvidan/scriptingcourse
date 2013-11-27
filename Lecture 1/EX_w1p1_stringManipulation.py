@@ -25,13 +25,13 @@ print "When you type \\n in code it turns into a new line:"
 print "\n^ up here!"
 
 # Print a string inside a variable
-strvar = "planetfe;hoiagrho'iaegrlhiaegr"
+strvar = "planet"
 
 print "\nHello %s !!!" % strvar
 
 LB = "\n-----------------------"
 print LB
-# Pringing two strings at the same time
+# Printing two strings at the same time
 print "Multiple strings can be printed at once."
 strvar1 = "Cheezburger"
 strvar2 = "Fries"
@@ -43,7 +43,7 @@ print "\nConcatenated:"
 print strvar1 + strvar2
 
 print "\nInside a third string:"
-print "I can has %(b)s and %(b)s?" % {'a':strvar1, 'b':strvar2}
+print "I can has %(a)s and %(b)s?" % {'a':strvar1, 'b':strvar2}
 
 print LB
 
@@ -90,7 +90,7 @@ print "Here is the list:"
 print wordlist
 
 print "Here it is joined (which adds in spaces by default):"
-print string.join(wordlist)
+print string.join(wordlists)
 
 print "Here I've joined it with tabs"
 tabstring = string.join(wordlist,"\t")
