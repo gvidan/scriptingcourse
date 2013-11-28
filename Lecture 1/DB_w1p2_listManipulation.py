@@ -21,6 +21,7 @@ list3 = list1 + lis2
 
 #4. Iterate through a list
 for i in List3:
+for i in list3:
 	print i
 	
 #5. Iterate through a list by assignment

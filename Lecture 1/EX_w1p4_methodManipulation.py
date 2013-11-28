@@ -57,6 +57,7 @@ def concatWithCheeze(str1,str2):
 		return "Incorrect type - both args should be strings"
 	
 print concatWithCheeze("123", "4000")# "and Friends")
+print concatWithCheeze(123, "4000")# "and Friends")
 
 print LB
 print "To note: You have to define a method before implementing it."
